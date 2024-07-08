@@ -66,6 +66,7 @@ header label:hover{     /*Evento*/
         position: absolute;
         background-color: black;
         width: 70%;
+        height: 100%;
         margin-left: -70%;
         transition: all 0.5s;
         z-index: 999;
@@ -85,9 +86,7 @@ header label:hover{     /*Evento*/
 }
 
 /* Inicio */
-#inicio{
-    padding-top: 10px;
-}
+
 #inicio{
     display: flex;
     width: 100%;
