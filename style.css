@@ -32,7 +32,6 @@ header label:hover{     /*Evento*/
     list-style: none;
     padding: 0;
     display: flex;
-    /* justify-content: center; */
 }
 
 .menu li a {
@@ -74,8 +73,8 @@ header label:hover{     /*Evento*/
     }
     header label {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        /* align-items: left; */
         width: 100%;
         padding: 10px 20px; 
     }
@@ -91,15 +90,12 @@ header label:hover{     /*Evento*/
     .menu ul{
         flex-direction: column;
     }
-    .menu li{
-        border-top: 1px solid #fff;
-    }
     #btn-menu:checked ~ .menu{
         margin: 0;
     } 
     .menu {
         background-color: lightskyblue;
-    }    
+    } 
 }
 
 /* Inicio */
