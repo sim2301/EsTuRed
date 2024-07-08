@@ -357,12 +357,18 @@ span:hover {
         width: calc(100% - 20px);
     }
     .rrss {
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
     }
-    .rrss > * {
-        margin: 4px;
+    .rrss > div {
+        display: flex;
+        align-items: center; 
+        justify-content: flex-start;
+        width: 100%; 
+        max-width: 300px;
+        padding: 6px;
     }
 }
 
